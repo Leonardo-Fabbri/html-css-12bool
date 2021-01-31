@@ -4,23 +4,19 @@
 }
 
 
-.debug .row .col-1 , .col-8 {
+.debug .row .col-1 , .col-8 , .col-2 , .col-6 {
   height: 300px;
-  border: 1px solid orange;
+  border: 1px solid black;
 }
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
 .row [class*="col-"] {
   float: left;
 }
-
 
 .row {
   max-width: 1000px;
@@ -42,7 +38,6 @@
 .col-1 {
   width: calc(100% / 12);
   float: left;
-  width: calc((100% / 12)*1);
 }
 .col-2 {
   width: calc((100% / 12)*2);
