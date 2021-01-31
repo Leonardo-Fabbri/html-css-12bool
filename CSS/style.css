@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+.row {
+  background-color: pink;
+}
+
+.col-1 {
+  background-color: pink;
+
+.col-1n , .col-2n , .col-4 , .col-3 , .col-3n {
+  background-color: rgb(255, 127, 80);

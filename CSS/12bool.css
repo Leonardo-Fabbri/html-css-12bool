@@ -1,0 +1,104 @@
+.debug .row {
+  height: 300px;
+  border: 1px solid black;
+}
+
+
+.debug .row .col-1 , .col-8 {
+  height: 300px;
+  border: 1px solid orange;
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+.row [class*="col-"] {
+  float: left;
+}
+
+
+.row {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rettangolo {
+.debug .row .col-1 , .col-8 , .col-2 , .col-6 {
+  height: 300px;
+  border: 1px solid orange;
+  border-right: 1px solid black;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+  float: left;
+  width: calc((100% / 12)*1);
+}
+.col-2 {
+  width: calc((100% / 12)*2);
+}
+.col-4 {
+  width: calc((100% / 12)*3);
+}
+/* 12 altro blocco */
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: calc((100% / 12)*6);
+}
+.col-8 {
+  width: calc((100% / 12)*8);
+}
+.col-4 {
+  width: calc((100% / 12)*7.8);
+  padding-right: 10px;
+}
+.col-1n {
+  width: calc((100% / 12)*2);
+  margin-left: 5px;
+}
+.col-2n {
+  width: calc((100% / 12)*2);
+}
+
+ .nested .col-4 , .col-1n, .col-2n , .col-3 , .col-3n {
+  height: 290px;
+  border: 1px solid white;
+  margin-top: 4px;
+}
+
+.meta {
+  width: calc(100% / 2);
+  height: 100%;
+  border: none;
+  border-right: 1px solid black;
+  float: left;
+}
+.metà {
+  width: calc(100% / 2);
+  height: 100%;
+  border: none;
+  float: left;
+}
+
+
+
+.col-3 {
+  width: calc((100% / 12)*6);
+  margin-left: 5px;
+}
+.col-3n {
+  width: calc((100% / 12)*5.7);
+  margin-right: 5px;
+}
